@@ -1,6 +1,6 @@
-# python-template-repository
+# Speech-Recognition
 
-本リポジトリはPython 環境のテンプレートリポジトリです。
+音声からのテキスト変換
 
 ## リポジトリ構成
 
@@ -16,33 +16,4 @@
 
 ## 環境詳細
 
-- Python : 3.9.4
-
-## 事前準備
-
-- Docker インストール
-
-## 環境構築
-
-- Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/python-template-repository）
-
-```
-cd Desktop/python-template-repository
-```
-
-- Dockerによる環境構築（フォルダをマウント：Desktop/python-template-repository）
-
-```
-docker-compose up --build
-```
-
-- ブラウザーを立ち上げてlocalhost:8888へアクセス
-- ローカルフォルダがマウントされている
-
-## 動作環境
-
-マシンスペック（Mac)
-
-- MacBook Air (Retina, 13-inch, 2018)
-- 1.6 GHz デュアルコアIntel Core i5
-- 8 GB 2133 MHz LPDDR3
+- GoogleColab
